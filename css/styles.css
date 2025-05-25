@@ -1,80 +1,63 @@
 body {font-family: 'Roboto', sans-serif;
 color: navyblue;}
+ul {list-style: none;}
+a {text-decoration: none;}
 .header {background-color: white;
 }
 .header-nav {
 }
 .logo { font-family: 'Raleway', sans-serif ; font-weight: 700;
 font-size: 18px;
-
-/* line-height: 21px; */ 
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--navy-blue);
+color: #2e2f42;
 }
-.logo.accent { color: var(--iris);
+.logo.accent { color: #4d5ae5;
 }
 .header-nav-list {font-weight: 500;
-font-size: 16px;
-
-/* line-height: 24px; */ 
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--navy-blue);
+color: #2e2f42;
 }
 .header-nav-list:hover,
-.header-nav-list:active {color: var(--ocean);}
+.header-nav-list:focus {
+    color: #404bbf;
+}
+.header-nav-list-item-st {text-decoration: underline;}
 .header-adress {
 }
 .header-adress-list {
 }
-.adress-item {font-weight: 400;
-font-size: 16px;
-
-/* line-height: 24px; */ 
+.adress-item {
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--slate);
-}
+color: #434455;}
+
 .adress-item:hover,
 .adress-item:focus {
-    color: var(--ocean);
+    color: #404bbf;
 }
-.main {background: var(--navy-blue);
+.main {background-color: #404bbf;
 }
 .main-title {font-weight: 700;
 font-size: 56px;
-
-/* line-height: 60px; */ 
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
-color: var(--white);
+color: #fff;
 }
 .main-botton {box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-background: var(--iris);
+background-color: #4d5ae5;
 font-weight: 500;
-font-size: 16px;
-
-/* line-height: 24px; */ 
 line-height: 1.5;
 letter-spacing: 0.04em;
-color: var(--white);
+color: #fff;
 cursor: pointer;
 }
 .main-botton:hover,
 .main-botton:focus {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-background: var(--ocean);
-font-weight: 500;
-font-size: 16px;
-
-/* line-height: 24px; */ 
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: var(--white);
-}
+background-color: #404bbf;}
 .advantages {
 }
 .advantages-title {
@@ -85,30 +68,23 @@ color: var(--white);
 }
 .advantages-item-title {font-weight: 500;
 font-size: 20px;
-
-/* line-height: 24px; */ 
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: var(--navy-blue);
+color: #2e2f42;
 }
-.advantages-item-text {font-weight: 400;
-font-size: 16px;
-
-/* line-height: 24px; */ 
+.advantages-item-text { 
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--slate);
+color: #434455;
 }
 .team {
 }
 .team-title {font-weight: 700;
 font-size: 36px;
-
-/* line-height: 40px; */ 
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
-color: var(--navy-blue);
+color:  #2e2f42;
 }
 .team-list {
 }
@@ -116,32 +92,25 @@ color: var(--navy-blue);
 }
 .team-list-title {font-weight: 500;
 font-size: 20px;
-
-/* line-height: 24px; */ 
 line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
-color: var(--navy-blue);
+color: #2e2f42;
 }
-.team-list-text {font-weight: 400;
-font-size: 16px;
-
-/* line-height: 24px; */ 
+.team-list-text {
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
-color: var(--slate);
+color: #434455;
 }
 .portfolio {
 }
 .portfolio-title {font-weight: 700;
 font-size: 36px;
-
-/* line-height: 40px; */ 
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
-color: var(--navy-blue);
+color: #2e2f42;
 }
 .portfolio-list {
 }
@@ -149,39 +118,30 @@ color: var(--navy-blue);
 }
 .portfolio-list-item-title {font-weight: 500;
 font-size: 20px;
-
-/* line-height: 24px; */ 
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: var(--navy-blue);
+color: var #2e2f42;
 }
-.portfolio-list-item-text {font-weight: 400;
-font-size: 16px;
-
-/* line-height: 24px; */ 
+.portfolio-list-item-text {
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--slate);
+color: #434455;
 }
 .footer {
+    border-color:  #2e2f42;
 }
 .footer-link { font-family:'Raleway', sans-serif;
     font-weight: 700;
 font-size: 18px;
-
-/* line-height: 21px; */ 
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--cloud);
+color: #f4f4fd;
 }
-.footer-link.accent { color: var(--iris);
+.footer-link.accent { color: #4d5ae5;
 }
-.footer-text {font-weight: 400;
-font-size: 16px;
-
-/* line-height: 24px; */ 
+.footer-text {
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--cloud);
+color: #f4f4fd;
 }
