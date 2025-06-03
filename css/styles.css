@@ -1,5 +1,5 @@
 body {font-family: 'Roboto', sans-serif;
-color: #434455;
+color:#434455;
 background-color:#FFFFFF;}
 ul {list-style: none;}
 a {text-decoration: none;}
@@ -14,30 +14,35 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 }
-.logo.accent {color: #2e2f42;
+.accent {color: #2e2f42;
 }
 .header-nav-list {font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
-.header-nav-list:hover,
-.header-nav-list:focus {color: #404bbf;
+.header-nav-list :hover,
+.header-nav-list :focus {color: #404bbf;
 }
 .header-nav-list-item-st {text-decoration: underline;}
-.header-adress {font-style: normal;
+.header-adress {font-style: normal;     
 }
 .header-adress-list {
+    /*line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;*/
 }
-.header-adress-email .header-adress-tel {
-line-height: 1.5;
+.header-adress-email {} 
+.header-adress-tel {}
+.header-adress .header-email-link,
+.header-adress .header-tel-link {line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.header-adress-email:hover,
-.header-adress-email:focus,
-.header-adress-tel:hover,
-.header-adress-tel:focus {color: #404bbf; 
+.header-adress .header-email-link:hover, 
+.header-adress .header-email-link:focus, 
+.header-adress .header-tel-link:hover, 
+.header-adress .header-tel-link:focus {color: #404bbf;
 }
 .main {background-color: #2e2f42;
 }
@@ -60,6 +65,7 @@ cursor: pointer;
 .main-botton:focus {
 background-color: #404bbf;}
 .advantages {
+    background-color: #f4f4fd;
 }
 .advantages-title {
 }
@@ -85,11 +91,13 @@ font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
+text-transform: capitalize;
 color:  #2e2f42;
 }
 .team-list {
 }
 .team-list-item {
+    background-color: #FFFFFF;
 }
 .team-list-title {font-weight: 500;
 font-size: 20px;
@@ -110,6 +118,7 @@ color: #434455;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
+text-transform: capitalize;
 text-align: center;
 color: #2e2f42;
 }
@@ -121,7 +130,7 @@ color: #2e2f42;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: var #2e2f42;
+color: #2e2f42;
 }
 .portfolio-list-item-text {
 line-height: 1.5;
