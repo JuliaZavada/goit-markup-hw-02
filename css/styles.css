@@ -55,16 +55,13 @@ a {
 }
 .header-adress-tel {
 }
-.header-adress .header-email-link,
-.header-adress .header-tel-link {
+.header-adress .header-adress-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-adress .header-email-link:hover,
-.header-adress .header-email-link:focus,
-.header-adress .header-tel-link:hover,
-.header-adress .header-tel-link:focus {
+.header-adress .header-adress-link:hover,
+.header-adress .header-adress-link:focus {
   color: #404bbf;
 }
 .main {
