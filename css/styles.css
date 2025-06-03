@@ -35,18 +35,14 @@ a {
 .header-nav-item-st{}
 .header-nav-item-port{}
 .header-nav-item-cont{}
-.header-nav-link-studio {
+.header-nav-link {
   color: #2e2f42;
 }
-.header-nav-link-portfolio {}
-.header-nav-link-contacts {}
 .header-nav-list :hover,
 .header-nav-list :focus {
   color: #404bbf;
 }
-.header-nav-list-item-st {
-  text-decoration: underline;
-}
+
 .header-adress {
   font-style: normal;
 }
